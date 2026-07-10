@@ -1,0 +1,42 @@
+After git install & github account ready
+
+step 1: git config --global user.name "username"
+step 2: git config --global user.email "useremail"
+
+From here , create a folder open in a VSCODE & apply steps on terminal.
+
+Create a New Project
+Step 1: Open Project Folder
+
+    Example:  C:\Users\DELL\Desktop\MERN\Mini Project
+
+Step 2: git init
+
+    Use only if the folder is not already connected with Git.
+
+Step 3: git remote add origin <Repository_URL>
+     
+    for connect repository
+
+Step 4: git add .   (Add all files)
+
+    git add "filename,foldername"   (Add a specific file)
+
+Step 5: git commit -m "Initial Commit"    
+
+Step 7: git push -u origin main   (For first time push code)
+
+    git push origin main    (For next time push code)
+
+Update Existing Project -> After making changes
+
+Step 1: git status
+Step 2: git add .
+Step 3: git commit -m "Updated Project"
+Step 4: git push origin main
+
+Force Push (Use Carefully) --> git push origin main --force
+
+    Use only when you want to overwrite the GitHub repository.
+
+Useful Commands: git status
