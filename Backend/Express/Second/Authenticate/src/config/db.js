@@ -1,3 +1,5 @@
+// database
+
 const mongoose=require("mongoose");
 async function dbConnect(){
     try{

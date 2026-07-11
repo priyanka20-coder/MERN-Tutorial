@@ -1,3 +1,5 @@
+// Super-Admin, Admin, User
+
 const express=require("express");
 const verfifyToken = require("../middlewars/auth.middleware");
 const authorizeRoles = require("../middlewars/role.middlleware");

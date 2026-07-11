@@ -1,3 +1,5 @@
+// Authorization
+
 const jwt=require("jsonwebtoken");
 const verfifyToken=(req,res,next)=>{
     let token;
